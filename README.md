@@ -1,6 +1,6 @@
 ﻿# CIBridge
 
-CIBridge is a small app intended to bridge between Source Control Hooks and Continuous integration tools such as Cruise Control
+CIBridge is a small app intended to bridge between Source Control Hooks and Continuous integration tools such as Cruise Control / TeamCity
 
 Currently implemented for CodebaseHq and CCNet
 
@@ -9,7 +9,7 @@ Currently implemented for CodebaseHq and CCNet
 * Pull from git
 * Download the nuget command line tool http://nuget.codeplex.com/releases/58939/download/222685
 * From the solution root run 'nuget i Cargowire.CIBridge\packages.config -o packages' to pull/update dependencies
-* Ensure that the configuration AppSettings are correct for the CCNet server
+* Ensure that the configuration AppSettings are correct for the CCNet/TeamCity server
 * Run as a public website
 * Create a hook within CodebaseHq
 * Push a commit
